@@ -51,6 +51,7 @@ input:focus {
 
 .small{
   font-size: 13px;
+ 
 }
 
 .labels-red , .small{
@@ -124,6 +125,9 @@ main {
     min-height: 0;
     margin-top: 7em;
   }
+  main{
+    border-bottom-right-radius: 100px;
+  }
   input{
     width: 80px;
     font-size: 1.2rem;
@@ -152,7 +156,10 @@ main {
  width: 100%;
 top: 85px;
 }
-  
+.small{
+  max-width: 80px;
+  text-align: center;
+}
   
 }
 
