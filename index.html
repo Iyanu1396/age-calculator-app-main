@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="inputs-row">
+            <label for="day">DAY</label>
+            <input
+              class="input-day input"
+              type="text"
+              id="day"
+              placeholder="DD"
+            />
+            <small class="hidden small">This field is required</small>
+          </div>
+          <div class="inputs-row">
+            <label for="month">MONTH</label>
+            <input
+              class="input-month input"
+              type="text"
+              id="month"
+              placeholder="MM"
+            />
+            <small class="hidden small">This field is required</small>
+          </div>
+          <div class="inputs-row">
+            <label for="year">YEAR</label>
+            <input
+              class="input-year input"
+              type="text"
+              id="year"
+              placeholder="YYYY"
+            />
+            <small class="hidden small">This field is required</small>
+          </div>
+        </div>
+        <div class="border"></div>
+        <div class="icon">
+          <img
+            id="icon-btn"
+            src="assets/images/icon-arrow.svg"
+            alt="arrow-icon"
+          />
+        </div>
+
+        <div class="results">
+          <p><span class="years">38</span>years</p>
+          <p><span class="months">3</span>months</p>
+          <p><span class="days">28</span>days</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
